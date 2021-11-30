@@ -9,7 +9,6 @@ const IncomeList = () => {
 
   return (
     <div className="transactions transactions-income">
-      <h2></h2>
       <ul className="transaction-list">
         {incomeTransactions.map((incomeTransaction) => (
           <IncomeTransaction

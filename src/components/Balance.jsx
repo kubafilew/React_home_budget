@@ -32,7 +32,6 @@ const Balance = () => {
 
   return (
     <div className="balance">
-      <h2></h2>
       <H3 />
       <div className="income-expense">
         <div className="plus">

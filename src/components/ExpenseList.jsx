@@ -9,7 +9,6 @@ const ExpenseList = () => {
 
   return (
     <div className="transactions transactions-expense">
-      <h2></h2>
       <ul className="transaction-list">
         {expenseTransactions.map((expenseTransaction) => (
           <ExpenseTransaction
