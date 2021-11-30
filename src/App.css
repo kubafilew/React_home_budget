@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Alegreya Sans SC", sans-serif;
+  background-color: rgb(236, 149, 106);
+  color: white;
+}
+
+.container {
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.app-wrapper {
+  width: 70%;
+  border: dashed 3px white;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.balance h2 {
+  margin: 2%;
+  font-size: 4vw;
+  font-weight: 200;
+}
+
+.balance h3 {
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+.income-expense {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  font-size: 1vw;
+  color: white;
+  /* color: rgb(246, 193, 53); */
+}
+
+.income-expense p {
+  margin-top: 20%;
+  font-size: 1.5vw;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 25px;
+  margin-bottom: 2%;
+}
+
+.input-group input:not([type="submit"]) {
+  text-align: center;
+  margin-bottom: 2rem;
+  border: none;
+  background: transparent;
+  border-bottom: 0.1rem dotted white;
+  font-size: 1.5vw;
+  outline: none;
+}
+
+.input-group button {
+  width: 8em;
+  padding: 0.2em;
+  border: none;
+  outline: none;
+  border-radius: 0.7rem;
+  font-size: 5vw;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.btn-income {
+  background-color: rgb(128, 197, 63);
+}
+.btn-expense {
+  background-color: rgb(128, 197, 63);
+}
+
+.list-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.transactions h2 {
+  font-size: 1.5vw;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 2.5vw;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  border-radius: 0.2rem;
+}
+
+.transactions-income .transaction {
+  background-color: #a3c1ad;
+  margin: 20px 0;
+}
+
+.transactions-expense .transaction {
+  background-color: #f08080;
+  margin: 20px 0;
+}
+
+.transaction-text {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-del-expense,
+.btn-del-income {
+  padding: 0.5vw;
+  margin: 4% 0;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 1vw;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+.btn-del-expense {
+  background-color: rgb(245, 86, 65);
+}
+
+.btn-del-income {
+  background-color: rgb(245, 86, 65);
+}
